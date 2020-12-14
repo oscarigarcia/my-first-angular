@@ -1,8 +1,7 @@
+import { ProductService } from './../product.service';
+import { IProduct } from '../product';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-
-import { IProduct } from './product';
-import { ProductService } from './product.service';
 
 @Component({
   templateUrl: './product-detail.component.html',
@@ -14,13 +13,13 @@ export class ProductDetailComponent implements OnInit {
   product: IProduct | undefined;
 
   constructor(
-    private route: ActivatedRoute,
+    private productService: ProductService,
     private router: Router,
-    private productService: ProductService
+    private route: ActivatedRoute
   ) {}
 
   ngOnInit(): void {
-    const param = this.route.snapshot.paramMap.get('id');
+    const param = +this.route.snapshot.paramMap.get('id');
     if (param) {
       const id = +param;
       this.getProduct(id);

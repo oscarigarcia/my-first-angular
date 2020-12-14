@@ -1,5 +1,5 @@
 <div class="card">
-  <div class="card-header">Hello</div>
+  <div class="card-header">{{ pageTitle }}</div>
   <div class="card-body">
     <div class="row">
       <div class="col-md-2">Filter by:</div>
@@ -49,13 +49,12 @@
             </td>
             <td>{{ product.releaseDate }}</td>
             <td>{{ product.price | currency: "USD":"symbol":"1.2-2" }}</td>
-            <!-- <td>
+            <td>
               <pm-star
                 [rating]="product.starRating"
                 (ratingClicked)="onRatingClicked($event)"
-              >
-              </pm-star>
-            </td> -->
+              ></pm-star>
+            </td>
           </tr>
         </tbody>
       </table>
