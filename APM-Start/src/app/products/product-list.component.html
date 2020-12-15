@@ -2,7 +2,7 @@
   <div class="card-header">{{ pageTitle }}</div>
   <div class="card-body">
     <div class="row">
-      <div class="col-md-2">Filter by:</div>
+      <div class="col-md-2">Filter by name:</div>
       <div class="col-md-4">
         <input type="text" [(ngModel)]="listFilter" />
       </div>
@@ -21,11 +21,10 @@
                 {{ showImage ? "Hide" : "Show" }} Image
               </button>
             </th>
-            <th>Product</th>
+            <th>Name</th>
             <th>Code</th>
-            <th>Available</th>
-            <th>Price</th>
-            <th>5 Star Rating</th>
+            <th>Planet</th>
+            <th>Popularity</th>
           </tr>
         </thead>
         <tbody>
@@ -36,7 +35,6 @@
                 [src]="product.imageUrl"
                 [title]="product.productName"
                 [style.width.px]="imageWidth"
-                [style.margin.px]="imageMargin"
               />
             </td>
             <td>
@@ -47,8 +45,7 @@
             <td>
               {{ product.productCode | ConvertToSpacePipe: "-" }}
             </td>
-            <td>{{ product.releaseDate }}</td>
-            <td>{{ product.price | currency: "USD":"symbol":"1.2-2" }}</td>
+            <td>{{ product.planet }}</td>
             <td>
               <pm-star
                 [rating]="product.starRating"

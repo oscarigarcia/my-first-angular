@@ -1,52 +1,102 @@
 [
   {
     "productId": 1,
-    "productName": "Leaf Rake",
+    "productName": "Broly Definitivo",
     "productCode": "GDN-0011",
-    "releaseDate": "March 19, 2019",
-    "description": "Leaf rake with 48-inch wooden handle.",
+    "planet": "Planeta Vegeta",
+    "description": "Es un saiyano de raza pura que sobrevivió a la destrucción del Planeta Vegeta junto a su padre Paragus, pero además es un Supersaiyano Legendario, del cual el último surgió hace mil años",
     "price": 19.95,
     "starRating": 3.2,
-    "imageUrl": "assets/images/leaf_rake.png"
+    "imageUrl": "assets/images/broly.jpg"
   },
   {
     "productId": 2,
-    "productName": "Garden Cart",
+    "productName": "Cell Definitivo",
     "productCode": "GDN-0023",
-    "releaseDate": "March 18, 2019",
-    "description": "15 gallon capacity rolling garden cart",
+    "planet": "Planeta Tierra (Futuro)",
+    "description": "Está fabricado a partir de células de Goku, Piccolo, Vegeta, Freezer y su padre el Rey Cold. Una minicomputadora en forma de insecto registró los movimientos y técnicas de estos luchadores, haciendo que Cell sepa usar todos sus ataques, y por ende, predecir la mayoría de sus movimientos.",
     "price": 32.99,
     "starRating": 4.2,
-    "imageUrl": "assets/images/garden_cart.png"
+    "imageUrl": "assets/images/Cell.jpg"
   },
   {
     "productId": 5,
-    "productName": "Hammer",
+    "productName": "Gogeta SSJ BLUE",
     "productCode": "TBX-0048",
-    "releaseDate": "May 21, 2019",
-    "description": "Curved claw steel hammer",
+    "planet": "Planeta Tierra",
+    "description": "Es el resultado de la fusión saiyana nacida mediante la unión entre Goku y Vegeta realizando la Danza de la Fusión de los metamoranos, existiendo como la contraparte de Vegetto, su Fusión Pothala.",
     "price": 8.9,
     "starRating": 4.8,
-    "imageUrl": "assets/images/hammer.png"
+    "imageUrl": "assets/images/gogeta.jpg"
   },
   {
     "productId": 8,
-    "productName": "Saw",
+    "productName": "Kakaroto SSJ GOD",
     "productCode": "TBX-0022",
-    "releaseDate": "May 15, 2019",
-    "description": "15-inch steel blade hand saw",
+    "planet": "Planeta Vegeta",
+    "description": "Kakaroto logra con la ayuda de sus amigos llegar a convertirse a un Dios ",
     "price": 11.55,
     "starRating": 3.7,
-    "imageUrl": "assets/images/saw.png"
+    "imageUrl": "assets/images/gokugod.jpg"
   },
   {
     "productId": 10,
-    "productName": "Video Game Controller",
+    "productName": "Kakaroto SSJ 1",
     "productCode": "GMG-0042",
-    "releaseDate": "October 15, 2018",
-    "description": "Standard two-button video game controller",
+    "planet": "Planeta Vegeta",
+    "description": "Primera transformación de Kakaroto en Super Saiyan",
     "price": 35.95,
     "starRating": 4.6,
-    "imageUrl": "assets/images/xbox-controller.png"
+    "imageUrl": "assets/images/gokusj1.jpg"
+  },
+  {
+    "productId": 11,
+    "productName": "Kakaroto SSJ 2",
+    "productCode": "GMG-0042",
+    "planet": "Planeta Vegeta",
+    "description": "Segunda transformación de Kakaroto en Super Saiyan",
+    "price": 35.95,
+    "starRating": 4.6,
+    "imageUrl": "assets/images/gokusj2.jpg"
+  },
+  {
+    "productId": 12,
+    "productName": "Kakaroto SSJ ULTRA INSTINTO",
+    "productCode": "GMG-0042",
+    "planet": "Planeta Vegeta",
+    "description": "Kakaroto logra dominar la doctrina egoísta acercándose al poder de un Dios de la destrucción",
+    "price": 35.95,
+    "starRating": 4.6,
+    "imageUrl": "assets/images/gokuultra.jpg"
+  },
+  {
+    "productId": 13,
+    "productName": "Kid BUU",
+    "productCode": "GMG-0042",
+    "planet": "N/A creado por el Hechicero Bibidi ",
+    "description": "Es muy parecido a Super Boo, con la diferencia de que es más bajo y su antena es más corta. En el manga solo posee un dedo índice y un pulgar, mientras que en el anime y videojuegos aparece con cuatro dedos y un pulgar. ",
+    "price": 35.95,
+    "starRating": 4.6,
+    "imageUrl": "assets/images/kibu.jpg"
+  },
+  {
+    "productId": 14,
+    "productName": "Vegeta ULTRA INSTINTO",
+    "productCode": "GMG-0042",
+    "planet": "Planeta Vegeta",
+    "description": "Vegeta logra dominar la doctrina egoísta acercándose al poder de un Dios de la destrucción",
+    "price": 35.95,
+    "starRating": 4.6,
+    "imageUrl": "assets/images/vegetaultra.jpg"
+  },
+  {
+    "productId": 15,
+    "productName": "Vegetto SSJ BLUE",
+    "productCode": "GMG-0042",
+    "planet": "Planeta Tierra",
+    "description": "Es el resultado de la unificación entre Vegeta y Kacarrot (Kakarotto) mediante los Pendientes Pothala dados por las deidades Kaio-shin, existiendo como la contraparte de Gogeta, su fusión por la Danza metamorana",
+    "price": 35.95,
+    "starRating": 4.6,
+    "imageUrl": "assets/images/veggettoblue.jpg"
   }
 ]

@@ -8,9 +8,8 @@ import { IProduct } from './product';
 })
 export class ProductListComponent implements OnInit {
   pageTitle = '';
-  showImage = false;
-  imageWidth = 50;
-  imageMargin = 50;
+  showImage = true;
+  imageWidth = 200;
   _listFilter = '';
   errorMessage: any;
   filteredProducts: IProduct[] = [];
@@ -39,7 +38,7 @@ export class ProductListComponent implements OnInit {
   }
 
   onRatingClicked(message: string): void {
-    this.pageTitle = 'Product List: ' + message;
+    this.pageTitle = 'Guerreros Z: ' + message;
   }
 
   toggleImage(): void {
